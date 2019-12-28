@@ -15,6 +15,9 @@
 		2805C29523B67FA6004D06B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2805C29323B67FA6004D06B3 /* Main.storyboard */; };
 		2805C29723B67FA7004D06B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2805C29623B67FA7004D06B3 /* Assets.xcassets */; };
 		2805C29A23B67FA7004D06B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2805C29823B67FA7004D06B3 /* LaunchScreen.storyboard */; };
+		2805C2A423B6808B004D06B3 /* score.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2805C2A223B6808A004D06B3 /* score.wav */; };
+		2805C2A523B6808B004D06B3 /* explosion.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2805C2A323B6808B004D06B3 /* explosion.wav */; };
+		2805C2A723B68099004D06B3 /* balloon-game.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2805C2A623B68099004D06B3 /* balloon-game.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +31,9 @@
 		2805C29623B67FA7004D06B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2805C29923B67FA7004D06B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2805C29B23B67FA7004D06B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2805C2A223B6808A004D06B3 /* score.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = score.wav; sourceTree = "<group>"; };
+		2805C2A323B6808B004D06B3 /* explosion.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = explosion.wav; sourceTree = "<group>"; };
+		2805C2A623B68099004D06B3 /* balloon-game.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "balloon-game.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,7 @@
 		2805C28823B67FA5004D06B3 /* BumpyBalloon */ = {
 			isa = PBXGroup;
 			children = (
+				2805C2A123B68078004D06B3 /* Sounds */,
 				2805C28923B67FA6004D06B3 /* AppDelegate.swift */,
 				2805C28B23B67FA6004D06B3 /* GameScene.sks */,
 				2805C28D23B67FA6004D06B3 /* Actions.sks */,
@@ -71,6 +78,16 @@
 				2805C29B23B67FA7004D06B3 /* Info.plist */,
 			);
 			path = BumpyBalloon;
+			sourceTree = "<group>";
+		};
+		2805C2A123B68078004D06B3 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				2805C2A623B68099004D06B3 /* balloon-game.mp3 */,
+				2805C2A323B6808B004D06B3 /* explosion.wav */,
+				2805C2A223B6808A004D06B3 /* score.wav */,
+			);
+			path = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -132,7 +149,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				2805C29523B67FA6004D06B3 /* Main.storyboard in Resources */,
+				2805C2A423B6808B004D06B3 /* score.wav in Resources */,
+				2805C2A523B6808B004D06B3 /* explosion.wav in Resources */,
 				2805C28C23B67FA6004D06B3 /* GameScene.sks in Resources */,
+				2805C2A723B68099004D06B3 /* balloon-game.mp3 in Resources */,
 				2805C29723B67FA7004D06B3 /* Assets.xcassets in Resources */,
 				2805C29A23B67FA7004D06B3 /* LaunchScreen.storyboard in Resources */,
 				2805C28E23B67FA6004D06B3 /* Actions.sks in Resources */,
